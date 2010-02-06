@@ -1,0 +1,59 @@
+2010-02-06 01:37:04,886 [main] INFO  org.red5.server.Launcher - Red5 Server 1.0.0 RC1 $Rev: 4033 $ (http://code.google.com/p/red5/)
+2010-02-06 01:37:04,954 [main] INFO  o.s.c.s.FileSystemXmlApplicationContext - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@26b4e29b: startup date [Sat Feb 06 01:37:04 CST 2010]; root of context hierarchy
+2010-02-06 01:37:05,519 [main] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from class path resource [red5.properties]
+2010-02-06 01:37:05,542 [main] INFO  o.s.b.f.s.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4f2b6c89: defining beans [placeholderConfig,red5.common,red5.core,context.loader,pluginLauncher,tomcat.server]; root of factory hierarchy
+2010-02-06 01:37:05,630 [main] INFO  o.s.c.s.FileSystemXmlApplicationContext - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@5fe8ce8: startup date [Sat Feb 06 01:37:05 CST 2010]; root of context hierarchy
+2010-02-06 01:37:05,799 [main] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from class path resource [red5.properties]
+2010-02-06 01:37:05,807 [main] INFO  o.s.b.f.s.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3909ea96: defining beans [placeholderConfig,red5.server,jmxFactory,jmxAgent,serializer,deserializer,statusObjectService,rtmpCodecFactory,rtmptCodecFactory,remotingCodecFactory,streamableFileFactory,filePersistenceThread,sharedObjectService,streamService,providerService,consumerService,bandwidthFilter,schedulingService,warDeployService,remotingClient,object.cache,keyframe.cache,flv.impl,flvreader.impl,mp4reader.impl,mp3reader.impl,org.springframework.beans.factory.config.MethodInvokingFactoryBean#0,org.springframework.beans.factory.config.MethodInvokingFactoryBean#1,streamExecutor,playlistSubscriberStream,clientBroadcastStream]; root of factory hierarchy
+2010-02-06 01:37:05,922 [main] WARN  o.s.b.GenericTypeAwarePropertyDescriptor - Invalid JavaBean property 'enableRmiAdapter' being accessed! Ambiguous write methods found next to actually used [public void org.red5.server.jmx.JMXAgent.setEnableRmiAdapter(boolean)]: [public void org.red5.server.jmx.JMXAgent.setEnableRmiAdapter(java.lang.String)]
+2010-02-06 01:37:05,923 [main] WARN  o.s.b.GenericTypeAwarePropertyDescriptor - Invalid JavaBean property 'enableSsl' being accessed! Ambiguous write methods found next to actually used [public void org.red5.server.jmx.JMXAgent.setEnableSsl(boolean)]: [public void org.red5.server.jmx.JMXAgent.setEnableSsl(java.lang.String)]
+2010-02-06 01:37:05,923 [main] WARN  o.s.b.GenericTypeAwarePropertyDescriptor - Invalid JavaBean property 'enableMinaMonitor' being accessed! Ambiguous write methods found next to actually used [public void org.red5.server.jmx.JMXAgent.setEnableMinaMonitor(java.lang.String)]: [public void org.red5.server.jmx.JMXAgent.setEnableMinaMonitor(boolean)]
+2010-02-06 01:37:06,460 [main] INFO  org.red5.server.service.WarDeployer - War deployer service created
+2010-02-06 01:37:06,547 [main] INFO  o.s.c.s.FileSystemXmlApplicationContext - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@6e3e5a91: startup date [Sat Feb 06 01:37:06 CST 2010]; parent: ApplicationContext 'red5.common'
+2010-02-06 01:37:06,617 [main] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from class path resource [red5.properties]
+2010-02-06 01:37:06,627 [main] WARN  o.s.b.f.c.CustomEditorConfigurer - Passing PropertyEditor instances into CustomEditorConfigurer is deprecated: use PropertyEditorRegistrars or PropertyEditor class names instead. Offending key [java.net.SocketAddress; offending editor instance: org.apache.mina.integration.beans.InetSocketAddressEditor@4c767286
+2010-02-06 01:37:06,630 [main] INFO  o.s.b.f.s.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@78c08593: defining beans [customEditorConfigurer,placeholderConfig,rtmpMinaConnManager,rtmpHandler,rtmpMinaIoHandler,rtmpTransport,rtmpMinaConnection,rtmptConnManager,rtmptHandler,rtmptServlet,rtmptConnection,rtmpsMinaIoHandler,rtmpsTransport]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@3909ea96
+2010-02-06 01:37:06,659 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - RTMP Mina Transport bound to /0.0.0.0:1935
+2010-02-06 01:37:06,659 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - RTMP Mina Transport Settings
+2010-02-06 01:37:06,660 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - Connection Threads: 4
+2010-02-06 01:37:06,660 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - I/O Threads: 16
+2010-02-06 01:37:06,713 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - TCP No Delay: true
+2010-02-06 01:37:06,713 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - Receive Buffer Size: 65536
+2010-02-06 01:37:06,713 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - Send Buffer Size: 271360
+2010-02-06 01:37:06,767 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - RTMP Mina Transport bound to /0.0.0.0:8443
+2010-02-06 01:37:06,790 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - RTMP Mina Transport Settings
+2010-02-06 01:37:06,790 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - Connection Threads: 4
+2010-02-06 01:37:06,790 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - I/O Threads: 16
+2010-02-06 01:37:06,791 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - TCP No Delay: true
+2010-02-06 01:37:06,791 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - Receive Buffer Size: 65536
+2010-02-06 01:37:06,791 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - Send Buffer Size: 271360
+2010-02-06 01:37:06,804 [main] INFO  o.s.c.s.FileSystemXmlApplicationContext - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@7953113d: startup date [Sat Feb 06 01:37:06 CST 2010]; parent: ApplicationContext 'red5.common'
+2010-02-06 01:37:06,879 [main] INFO  o.s.b.f.s.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7f42731: defining beans [global.clientRegistry,global.serviceInvoker,global.mappingStrategy,global.context,global.handler,global.scope,red5.scopeResolver]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@3909ea96
+2010-02-06 01:37:06,983 [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: .:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+2010-02-06 01:37:07,049 [main] INFO  org.red5.server.tomcat.TomcatLoader - Setting connector: org.apache.catalina.connector.Connector
+2010-02-06 01:37:07,050 [main] INFO  org.red5.server.tomcat.TomcatLoader - Address to bind: /0.0.0.0:5080
+2010-02-06 01:37:07,051 [main] INFO  org.red5.server.tomcat.TomcatLoader - Loading tomcat context
+2010-02-06 01:37:07,051 [main] INFO  org.red5.server.tomcat.TomcatLoader - Server root: /Users/hoss/work/trunk/dist
+2010-02-06 01:37:07,051 [main] INFO  org.red5.server.tomcat.TomcatLoader - Config root: /Users/hoss/work/trunk/dist/conf
+2010-02-06 01:37:07,071 [main] INFO  org.red5.server.tomcat.TomcatLoader - Application root: /Users/hoss/work/trunk/dist/webapps
+2010-02-06 01:37:07,177 [main] INFO  org.red5.server.tomcat.TomcatLoader - Starting Tomcat servlet engine
+2010-02-06 01:37:07,177 [main] INFO  o.apache.catalina.startup.Embedded - Starting tomcat server
+2010-02-06 01:37:07,275 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/6.0.24
+2010-02-06 01:37:08,248 [main] INFO  o.a.coyote.http11.Http11Protocol - Initializing Coyote HTTP/1.1 on http-0.0.0.0-5080
+2010-02-06 01:37:08,265 [main] INFO  o.a.coyote.http11.Http11Protocol - Starting Coyote HTTP/1.1 on http-0.0.0.0-5080
+2010-02-06 01:37:08,307 [main] INFO  org.red5.server.tomcat.TomcatLoader - Dedicated RTMPT server configuration was not specified
+2010-02-06 01:37:08,325 [main] INFO  org.red5.server.tomcat.TomcatLoader - Dedicated RTMPS server configuration was not specified
+2010-02-06 01:37:08,515 [Launcher:/oflaDemo] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from ServletContext resource [/WEB-INF/red5-web.properties]
+2010-02-06 01:37:08,519 [Launcher:/installer] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from ServletContext resource [/WEB-INF/red5-web.properties]
+2010-02-06 01:37:08,523 [Launcher:/] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from ServletContext resource [/WEB-INF/red5-web.properties]
+2010-02-06 01:37:08,529 [Launcher:/vod] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from ServletContext resource [/WEB-INF/red5-web.properties]
+2010-02-06 01:37:08,537 [Launcher:/] INFO  o.s.b.f.s.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1a83e35b: defining beans [placeholderConfig,web.context,web.scope]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@7f42731
+2010-02-06 01:37:08,541 [Launcher:/installer] INFO  o.s.b.f.s.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@55291cd: defining beans [placeholderConfig,web.context,web.scope,web.handler,installer.service]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@7f42731
+2010-02-06 01:37:08,552 [Launcher:/live] INFO  o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from ServletContext resource [/WEB-INF/red5-web.properties]
+2010-02-06 01:37:08,558 [Launcher:/live] INFO  o.s.b.f.s.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7c2479a4: defining beans [placeholderConfig,web.context,web.scope,web.handler]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@7f42731
+2010-02-06 01:37:08,600 [Launcher:/vod] INFO  o.s.b.f.s.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@15353154: defining beans [placeholderConfig,web.context,web.scope,web.handler]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@7f42731
+2010-02-06 01:37:08,890 [Launcher:/installer] INFO  org.red5.server.service.Installer - Installer service created
+2010-02-06 01:37:08,902 [Launcher:/oflaDemo] INFO  o.s.b.f.s.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@a4d93e3: defining beans [placeholderConfig,web.context,web.scope,web.handler,demoService.service,org.springframework.scripting.support.ScriptFactoryPostProcessor#0]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@7f42731
+2010-02-06 01:37:37,970 [NioProcessor-1] INFO  o.red5.server.net.rtmp.RTMPHandler - Connecting to: [WebScope@41955c3 Depth = 1, Path = '/default', Name = 'oflaDemo']
+2010-02-06 01:38:44,808 [NioProcessor-1] INFO  o.red5.server.net.rtmp.RTMPHandler - Remembering client buffer on stream: 5000
+2010-02-06 01:38:44,929 [NioProcessor-1] INFO  o.red5.server.net.rtmp.RTMPHandler - Remembering client buffer on stream: 5000

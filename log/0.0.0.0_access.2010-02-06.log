@@ -1,0 +1,5 @@
+0:0:0:0:0:0:0:1%0 - - [06/Feb/2010:01:08:54 -0600] "GET /installer/ HTTP/1.1" 200 4261
+0:0:0:0:0:0:0:1%0 - - [06/Feb/2010:01:08:54 -0600] "GET /installer/AC_OETags.js HTTP/1.1" 200 8164
+0:0:0:0:0:0:0:1%0 - - [06/Feb/2010:01:08:54 -0600] "GET /installer/history/history.css HTTP/1.1" 200 371
+0:0:0:0:0:0:0:1%0 - - [06/Feb/2010:01:08:54 -0600] "GET /installer/history/history.js HTTP/1.1" 200 24548
+0:0:0:0:0:0:0:1%0 - - [06/Feb/2010:01:08:54 -0600] "GET /installer/installer.swf HTTP/1.1" 200 537289
